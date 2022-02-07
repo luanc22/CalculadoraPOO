@@ -236,7 +236,7 @@ namespace Aula1CalculadoraFuncao
                 Console.ReadLine();
                 Console.Clear();
 
-                //commit test
+                //commit test 2.0
 
             }
 
