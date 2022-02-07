@@ -202,7 +202,24 @@ namespace Aula1CalculadoraFuncao
                     Console.WriteLine("Ultimas operacoes: ");
                     while (tamanhoLista > i)
                     {
-                        Console.WriteLine(listaHistorico[i]);
+                        if (listaHistorico[i].Contains("+"))
+                        {
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.WriteLine(listaHistorico[i]);
+                            Console.ResetColor();
+
+                        }
+                        else if (listaHistorico[i].Contains("-"))
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine(listaHistorico[i]);
+                            Console.ResetColor();
+                        }
+                        else
+                        {
+                            Console.WriteLine(listaHistorico[i]);
+                        }
+
                         i++;
 
                         if (i > 10)
