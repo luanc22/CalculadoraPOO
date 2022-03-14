@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aula1CalculadoraFuncao.cs" />
+    <Compile Include="ExecutarMain.cs" />
+    <Compile Include="Calculadora.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
